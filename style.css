@@ -1,0 +1,52 @@
+h3 {
+   background-color: orange;  
+   margin-top: 0px;
+   width: 100%;
+   font-size: 23px;    
+
+}
+#headtype2{
+    font-family: 'Gamja Flower', cursive;
+   color: blue;
+}
+#headtype1{
+    font-family: 'Indie Flower', cursive;
+}
+.speedstyl {
+    margin-left: 80px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 40px;
+}
+#voldisplay{
+    float:right;
+    margin-top: 0px;
+}
+#speeddisplaycss {
+    float:left;
+
+}
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 88px red;
+      }
+  
+      to {
+        box-shadow: 1px 1px 88px blue;
+      }
+      
+  }
+  canvas {
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:5px solid white;
+    background-color: black;
+}
